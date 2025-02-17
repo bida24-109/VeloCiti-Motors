@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeloCiti Motors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg'); /* Add your background image URL here */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+    header {
+      background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(68, 68, 68, 0.8); /* Semi-transparent background */
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #333;
+      border-radius: 8px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VeloCiti Motors</h1>
+    <p>Where Performance Meets Precision</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Welcome to VeloCiti Motors</h2>
+    <p>Your destination for high-performance vehicles and custom modifications. Whether you're looking for speed, style, or both, we've got you covered.</p>
+    <h3>Featured Vehicles</h3>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1630485074308-ff80bde93658?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9sbyUyMGd0aXxlbnwwfHwwfHx8MA%3D%3D" alt="VW Polo GTI 6C">
+      <img src="https://i.pinimg.com/736x/f6/f0/e1/f6f0e13efc5b87f3c3a9e2d405191a82.jpg" alt="Audi RS 3 Sportback">
+      <img src="https://i.pinimg.com/736x/9f/fd/86/9ffd8686035178086efe50d160b22687.jpg" alt="BMW M340i xDrive">
+    </div>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>At VeloCiti Motors, we are passionate about delivering top-tier performance vehicles and offering bespoke modifications to suit your needs. Our team of experts ensures every car meets the highest standards of quality and performance.</p>
+    <h3>Why Choose Us?</h3>
+    <ul>
+      <li>Wide selection of performance vehicles</li>
+      <li>Expert custom modifications</li>
+      <li>Competitive pricing</li>
+      <li>Exceptional customer service</li>
+    </ul>
+    <div class="gallery">
+      <img src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2018/07/09-Intake.jpg" alt="Performance Modifications">
+      <img src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2022/01/NOS-Nitrous-Oxide-tang-in-a-car.jpg" alt="Specialty Modifications">
+      <img src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/10/dodge-challnger-srt-2015-2016-2017-2020-2021-2022-18-19-grey-widebody-wing-spoiler-chasis-mounted-fender-flare-s.jpg" alt="Aesthetic Modifications">
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to schedule a test drive? Reach out to us!</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 VeloCiti Motors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
