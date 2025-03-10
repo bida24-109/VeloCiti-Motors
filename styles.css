@@ -59,3 +59,30 @@ body {
       height: auto;
       border-radius: 8px;
     }
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-image {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-name {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition */
+    text-align: center; /* Center text */
+}
+
+.image-container:hover .image-name {
+    opacity: 1; /* Show the name on hover */
+}
