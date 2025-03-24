@@ -86,3 +86,55 @@ body {
 .image-container:hover .image-name {
     opacity: 1; /* Show the name on hover */
 }
+<style>
+  .image-container {
+    width: 300px; /* Set a fixed width for the container */
+    height: 200px; /* Set a fixed height for the container */
+    overflow: hidden; /* Hide any clipped parts of the image */
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+</style>
+
+<div class="image-container">
+  <img src="germany.jpg" alt="Germany">
+</div>
+<div class="image-container">
+  <img src="italy.jpeg" alt="Italy">
+</div>
+<div class="image-container">
+  <img src="uk.jpg" alt="UK">
+</div>
+<div class="image-container">
+  <img src="usa.jpeg" alt="USA">
+</div>
+<div class="image-container">
+  <img src="BMW M2.jpg" alt="BMW M2">
+</div>
+<div class="image-container">
+  <img src="Chavrolet Camaro.jpeg" alt="Chavrolet Camaro">
+</div>
+<div class="image-container">
+  <img src="Dodge Challenger SRT Demon 170.jpg" alt="Dodge Challenger SRT Demon 170">
+</div>
+<div class="image-container">
+  <img src="Ferrari 812 Superfast.jpg" alt="Ferrari 812 Superfast">
+</div>
+<div class="image-container">
+  <img src="Ford Mustang.jpeg" alt="Ford Mustang">
+</div>
+<div class="image-container">
+  <img src="Lamborghini Aventador SVJ.jpg" alt="Lamborghini Aventador SVJ">
+</div>
+<div class="image-container">
+  <img src="Mercedes amg a45.jpg" alt="Mercedes Benz AMG A45">
+</div>
+<div class="image-container">
+  <img src="Pagani Zonda HP Barchetta.jpeg" alt="Pagani Zonda HP Barchetta">
+</div>
+<div class="image-container">
+  <img src="audi rs3.jpg" alt="Audi RS 3">
