@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact VeloCiti Motors | High-Performance Vehicles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+            <h2>VeloCiti Motors</h2>
+            <p class="navbar-tagline">Where Performance Meets Precision</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutvelociti.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="vehiclesDropdown" role="button" data-bs-toggle="dropdown">
+                            Buy/Rent
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="american-muscle.html">American Muscle</a></li>
+                            <li><a class="dropdown-item" href="german-engineering.html">German Engineering</a></li>
+                            <li><a class="dropdown-item" href="italian-stallions.html">Italian Stallions</a></li>
+                            <li><a class="dropdown-item" href="british-machines.html">British Machines</a></li>
+                            <li><a class="dropdown-item" href="japanese-performance.html">Japanese Performance</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="modifications.html">Modifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="velocitifeedback.html">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="test-drive.html">Schedule Test Drive</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contactvelociti.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="contact-hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1 class="hero-title">Contact Us</h1>
+                <p class="hero-subtitle">We're here to help with all your performance vehicle needs</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="contact-main py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="contact-card p-4 h-100">
+                        <h2 class="section-title mb-4">Get In Touch</h2>
+                        
+                        <div class="contact-method mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Visit Us</h3>
+                                <p>Plot 123, Gaborone International Commerce Park<br>Gaborone, Botswana</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <p>Landline: <a href="tel:+2671234567">+267 123 4567</a></p>
+                                <p>Mobile: <a href="tel:+26776603762">+267 76 603 762</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:info@velocitimotors.com">info@velocitimotors.com</a></p>
+                                <p><a href="mailto:letangmaiketso@gmail.com">letangmaiketso@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                                <p>Saturday: 9:00 AM - 1:00 PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h3 class="mb-3">Quick Links</h3>
+                            <a href="velocitifeedback.html" class="btn btn-outline-primary me-2">Give Feedback</a>
+                            <a href="test-drive.html" class="btn btn-outline-secondary">Schedule Test Drive</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <div class="contact-form-card p-4 h-100">
+                        <h2 class="section-title mb-4">Send Us a Message</h2>
+                        <form id="contactForm" action="submit-form.php" method="post">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <select class="form-select" id="subject" name="subject" required>
+                                    <option value="" selected disabled>Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="test-drive">Schedule Test Drive</option>
+                                    <option value="modification">Modification Inquiry</option>
+                                    <option value="service">Service Appointment</option>
+                                    <option value="feedback">Feedback</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="consent" required>
+                                <label class="form-check-label" for="consent">
+                                    I consent to VeloCiti Motors collecting my data for contact purposes
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="map-card p-4">
+                        <h2 class="section-title mb-4">Our Location</h2>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.210321477921!2d25.9184153154686!3d-24.628377583635986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDM3JzQyLjIiUyAyNcKwNTUnMTkuNiJF!5e0!3m2!1sen!2sbw!4v1620000000000!5m2!1sen!2sbw" 
+                                    allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3>VeloCiti Motors</h3>
+                    <p>Your premier destination for high-performance vehicles and custom modifications in Botswana.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="aboutvelociti.html" class="text-white">About Us</a></li>
+                        <li><a href="american-muscle.html" class="text-white">American Muscle</a></li>
+                        <li><a href="german-engineering.html" class="text-white">German Engineering</a></li>
+                        <li><a href="italian-stallions.html" class="text-white">Italian Stallions</a></li>
+                        <li><a href="british-machines.html" class="text-white">British Machines</a></li>
+                        <li><a href="japanese-performance.html" class="text-white">Japanese Performance</a></li>
+                        <li><a href="modifications.html" class="text-white">Modifications</a></li>
+                        <li><a href="contactvelociti.html" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Contact Info</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Plot 123, Gaborone, Botswana</li>
+                        <li><i class="fas fa-phone me-2"></i> +267 123 4567</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@velocitimotors.com</li>
+                        <li><i class="fas fa-clock me-2"></i> Mon-Fri: 8AM - 5PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 VeloCiti Motors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
